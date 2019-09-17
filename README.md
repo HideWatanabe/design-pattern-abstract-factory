@@ -22,7 +22,7 @@ Kit
 - **AbstractFactory:** Interface para as operações que criam os objetos-produto abstratos
 - **ConcreteFactory:** Implementações da interface **AbstractFactory**
 - **AbstractProduct:** Interface que representa um tipo objeto-produto a ser "produzido" por alguma implementação de  **AbstractFactory**
-- **ConcreteProduct:** Implementações da interface ConcreteProduct, defininido um objeto-produto a ser criado pela **ConcreteFactory** correspondente
+- **ConcreteProduct:** Implementações da interface **ConcreteProduct**, defininido um objeto-produto a ser criado pela **ConcreteFactory** correspondente
 - **Client**: Consome as Factories e Products somente via interfaces (**AbstractFactory** e **AbstractProduct**)
 
 
